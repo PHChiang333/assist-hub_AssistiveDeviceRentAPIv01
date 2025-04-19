@@ -1,0 +1,963 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|e:\\projectrocket17th\\webapplicationassistivedevicerentapiv01-backup250215 - webconfigupdate - keyremoved\\webapplicationassistivedevicerentapiv01\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|e:\\projectrocket17th\\webapplicationassistivedevicerentapiv01-backup250215 - webconfigupdate - keyremoved\\webapplicationassistivedevicerentapiv01\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\class\\serverpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\class\\serverpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\linelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\linelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|e:\\projectrocket17th\\webapplicationassistivedevicerentapiv01-backup250215 - webconfigupdate - keyremoved\\webapplicationassistivedevicerentapiv01\\domain\\lineloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\domain\\lineloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\linepaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\linepaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\class\\linepayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\class\\linepayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\domain\\linemsgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\domain\\linemsgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\linebotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\linebotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\inquiriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\inquiriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\class\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\class\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\class\\linebotmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\class\\linebotmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\linepay\\linepayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\linepay\\linepayrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\inquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\inquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\suggest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\suggest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\userinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\userinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\security\\jwtauthutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\security\\jwtauthutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\linepay\\linepayconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\linepay\\linepayconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\inquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\inquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\providers\\signatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\providers\\signatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\providers\\jsonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\providers\\jsonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\linelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\linelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\security\\jwtauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\security\\jwtauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\inquiryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\inquiryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\productimg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\productimg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\enumlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\enumlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\productgmfmlv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\productgmfmlv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\models\\productbodypart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\models\\productbodypart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\webapplicationassistivedevicerentapiv01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C24ABF-0C9E-41EB-9D1F-B63B243F6B8D}|WebApplicationAssistiveDeviceRentAPIv01\\WebApplicationAssistiveDeviceRentAPIv01.csproj|solutionrelative:webapplicationassistivedevicerentapiv01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 407,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 338,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinePayController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LinePayController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LinePayController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LinePayController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LinePayController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:12:31.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinePayService.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\LinePayService.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\LinePayService.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\LinePayService.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\LinePayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:58:14.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InquiriesController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\InquiriesController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\InquiriesController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\InquiriesController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\InquiriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:03:38.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerPath.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\ServerPath.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\ServerPath.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\ServerPath.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\ServerPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:48:02.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LineBotController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineBotController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineBotController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineBotController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineBotController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:02:13.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\DefaultController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:13:57.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LineLoginController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineLoginController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineLoginController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineLoginController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\LineLoginController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAADwvy8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:49:05.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAGMFAAAAAAAAAAAAAHoFAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:20:32.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\CartsController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAADwAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:54:26.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAOAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:49:37.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Function.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\Function.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\Function.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\Function.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\Function.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T08:41:30.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:38:24.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LineBotMsg.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\LineBotMsg.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\LineBotMsg.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Class\\LineBotMsg.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Class\\LineBotMsg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:41:38.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LinePayRequest.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayRequest.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayRequest.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayRequest.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayRequest.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T00:00:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAiwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:44:10.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Order.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:44:57.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Suggest.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Suggest.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Suggest.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Suggest.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Suggest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:40:48.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Global.asax.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Global.asax.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Global.asax.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAvwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:38:29.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DBModel.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\DBModel.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\DBModel.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\DBModel.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\DBModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T19:13:29.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\User.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\User.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:58:28.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Cart.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Cart.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Cart.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:45:20.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Product.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Product.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:38:50.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Inquiry.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Inquiry.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Inquiry.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Inquiry.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Inquiry.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:22:37.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:19:17.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\CartDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\CartDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\CartDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T16:24:05.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LinePayConfirm.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayConfirm.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayConfirm.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayConfirm.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LinePay\\LinePayConfirm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:12:16.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserInfoesController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\UserInfoesController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\UserInfoesController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\UserInfoesController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\UserInfoesController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwEAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:39:28.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\OrderDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\OrderDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\OrderDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\OrderDto.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAYwNIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:10:22.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JwtAuthUtil.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthUtil.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthUtil.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthUtil.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthUtil.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:27:38.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "inquiryDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\inquiryDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\inquiryDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\inquiryDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\inquiryDto.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAhwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T06:47:05.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SignatureProvider.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Providers\\SignatureProvider.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Providers\\SignatureProvider.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Providers\\SignatureProvider.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Providers\\SignatureProvider.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T15:54:22.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductsDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\ProductsDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\ProductsDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\ProductsDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\ProductsDto.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAA6wIEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:39:52.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:58:36.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JsonProvider.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Providers\\JsonProvider.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Providers\\JsonProvider.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Providers\\JsonProvider.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Providers\\JsonProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:44:35.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ValuesController.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAzwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:05:57.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\AuthDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\AuthDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\AuthDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\AuthDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:38:07.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\UserDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\UserDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\UserDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:47:23.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\UserInfo.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\UserInfo.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\UserInfo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwDkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:15:01.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "InquiryProduct.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\InquiryProduct.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\InquiryProduct.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\InquiryProduct.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\InquiryProduct.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:40:30.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductImg.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductImg.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductImg.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductImg.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductImg.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:55:28.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "JwtAuthFilter.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthFilter.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthFilter.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthFilter.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Security\\JwtAuthFilter.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T09:06:01.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductInfo.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductInfo.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductInfo.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:55:21.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EnumList.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\EnumList.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\EnumList.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\EnumList.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\EnumList.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:49:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductGMFMLv.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductGMFMLv.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductGMFMLv.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductGMFMLv.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductGMFMLv.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:55:32.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductType.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductType.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductType.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:53:51.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductFeature.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductFeature.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductFeature.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductFeature.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductFeature.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:55:38.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductBodyPart.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductBodyPart.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductBodyPart.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductBodyPart.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\ProductBodyPart.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:16:59.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Startup.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Startup.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Startup.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Startup.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:54:00.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T07:03:48.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LineLoginDto.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LineLoginDto.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LineLoginDto.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LineLoginDto.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Models\\Dto\\LineLoginDto.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T05:19:09.255Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 193,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 206,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "5b16c63f-e731-46e5-8fb8-e373d9bb0230",
+        "Display": 0,
+        "X": 26,
+        "Y": 542,
+        "Width": 1129,
+        "Height": 850,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LineMsgService.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineMsgService.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineMsgService.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineMsgService.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineMsgService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:58:45.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LineLoginService.cs",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineLoginService.cs",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineLoginService.cs",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineLoginService.cs",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Domain\\LineLoginService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwB0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:52:20.501Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "432a7a3a-3da2-486b-b073-0290a31b24f9",
+        "Display": 0,
+        "X": 369,
+        "Y": 435,
+        "Width": 1129,
+        "Height": 850,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Web.config",
+              "RelativeDocumentMoniker": "WebApplicationAssistiveDeviceRentAPIv01\\Web.config",
+              "ToolTip": "E:\\ProjectRocket17th\\WebApplicationAssistiveDeviceRentAPIv01-backup250215 - webconfigUpdate - KeyRemoved\\WebApplicationAssistiveDeviceRentAPIv01\\Web.config",
+              "RelativeToolTip": "WebApplicationAssistiveDeviceRentAPIv01\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-06T18:30:54.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
