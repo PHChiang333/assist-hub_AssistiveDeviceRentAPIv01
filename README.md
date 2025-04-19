@@ -4,7 +4,7 @@
 個人資訊更新:
 Web.config:
 <configuration>
-  <appsetting>
-    * Line login
-    * LinePay
-    * LineMsg
+<appsetting>
+* Line login
+* LinePay
+* LineMsg
