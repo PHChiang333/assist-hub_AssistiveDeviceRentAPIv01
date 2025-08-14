@@ -81,10 +81,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Class
             return $"{firstChar}{secondChar}";
         }
 
-
-
-
-
     }
 
 

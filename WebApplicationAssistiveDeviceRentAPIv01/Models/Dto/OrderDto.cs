@@ -78,7 +78,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models.Dto
         public decimal rent { get; set; }
         public decimal deposit { get; set; }
         public decimal fee { get; set; }
-        //public decimal feeDeposit { get; set; }
         public decimal finalAmount { get; set; }
         public int period { get; set; }
         public DateTime rentDate { get; set; }
@@ -148,11 +147,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models.Dto
         public string phone { get; set; }
         public string email { get; set; }
 
-        //店家資料
-        //public string storeName { get; set; }
-        //public string storePhone { get; set; }
-        //public string storeTime { get; set; }
-        //public string storeAddress { get; set; }
 
         //收件人地址
         public string addressZip { get; set; }

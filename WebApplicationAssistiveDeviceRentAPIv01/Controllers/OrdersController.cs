@@ -128,33 +128,10 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                     //支付系統回復確認
 
 
-                    //測試用: linePay 為已付款, CreditCard未付款
-                    //bool isPaymentSuccess = false;
-
-                    //if (request.payment == "LinePay")
-                    //{
-                    //    OrderAdd.OrderStatus = "已付款";
-                    //    isPaymentSuccess = true;
-                    //}
-                    //else if (request.payment == "CreditCard")
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-                    //else
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-
-
-
-
                     OrderAdd.note = "";
                     OrderAdd.EstimatedArrivalDate = "";
                     OrderAdd.PickupVerificationCode = date + serialNumber + Function.GenerateRandomCode();
 
-                    //要記得加上基本設定
-                    //要記得加上基本設定
-                    //要記得加上基本設定
                     OrderAdd.CreateAt = DateTime.Now;
                     OrderAdd.UpdateAt = DateTime.Now;
                     OrderAdd.IsDeleted = false;
@@ -171,7 +148,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                         statusCode = 200,
                         status = true,
                         message = "添加訂單成功",
-                        //isPaymentSuccess = isPaymentSuccess
+
                     };
 
                     return Ok(result);
@@ -282,7 +259,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                     {
                         OrderAdd.ShippingStatus = "待出貨";
                     }
-                    //OrderAdd.fee = selProduct?.Fee ?? -99999;
+
                     OrderAdd.fee = request.product.fee;
                     OrderAdd.Quantity = request.product.quantity;
                     OrderAdd.FinalAmount = request.product.finalAmount;
@@ -303,34 +280,11 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                     //支付系統回復確認
 
-
-                    //測試用: linePay 為已付款, CreditCard未付款
-                    //bool isPaymentSuccess = false;
-
-                    //if (request.payment == "LinePay")
-                    //{
-                    //    OrderAdd.OrderStatus = "已付款";
-                    //    isPaymentSuccess = true;
-                    //}
-                    //else if (request.payment == "CreditCard")
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-                    //else
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-
-
-
-
                     OrderAdd.note = "";
                     OrderAdd.EstimatedArrivalDate = "";
                     OrderAdd.PickupVerificationCode = date + serialNumber + Function.GenerateRandomCode();
 
-                    //要記得加上基本設定
-                    //要記得加上基本設定
-                    //要記得加上基本設定
+
                     OrderAdd.CreateAt = DateTime.Now;
                     OrderAdd.UpdateAt = DateTime.Now;
                     OrderAdd.IsDeleted = false;
@@ -355,7 +309,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                             //確認訂單
                             var selOrder = db.Orders.Where(o => o.IsDeleted == false && o.CartId == request.product.id).FirstOrDefault();
 
-                            //PaymentAppMsg += "測試點01";
+                            
                             //new linePayReserve 的 LinePayRequestDto
                             LinePayRequestDto linePayReserveRequest = new LinePayRequestDto
                             {
@@ -389,7 +343,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                             };
 
-                            //PaymentAppMsg += "測試點02";
+
 
 
                             //發送request 並接收response
@@ -398,7 +352,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                             selOrder.TransactionId = resultLinePayReserve.info.transactionId.ToString();
                             db.SaveChanges();
 
-                            //PaymentAppMsg += "測試點03";
 
                             //response成功
                             if (resultLinePayReserve.returnCode == "0000")
@@ -646,34 +599,10 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                     //支付系統回復確認
 
-
-                    //測試用: linePay 為已付款, CreditCard未付款
-                    //bool isPaymentSuccess = false;
-
-                    //if (request.payment == "LinePay")
-                    //{
-                    //    OrderAdd.OrderStatus = "已付款";
-                    //    isPaymentSuccess = true;
-                    //}
-                    //else if (request.payment == "CreditCard")
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-                    //else
-                    //{
-                    //    OrderAdd.OrderStatus = "未付款";
-                    //}
-
-
-
-
                     OrderAdd.note = "";
                     OrderAdd.EstimatedArrivalDate = "";
                     OrderAdd.PickupVerificationCode = date + serialNumber + Function.GenerateRandomCode();
 
-                    //要記得加上基本設定
-                    //要記得加上基本設定
-                    //要記得加上基本設定
                     OrderAdd.CreateAt = DateTime.Now;
                     OrderAdd.UpdateAt = DateTime.Now;
                     OrderAdd.IsDeleted = false;
@@ -690,18 +619,18 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                     if (request.payment == "LinePay")
                     {
-                        //TODO 確認LinePay
+
                         string selConfirmUrl = request.confirmUrl;
                         string selCancelUrl = "https://assist-hub.vercel.app/cart/checkout/declined";
 
                         try
                         {
-                            //PaymentAppMsg += "測試點00";
+
 
                             //確認訂單
                             var selOrder = db.Orders.Where(o => o.IsDeleted == false && o.CartId == request.product.id).FirstOrDefault();
 
-                            //PaymentAppMsg += "測試點01";
+
                             //new linePayReserve 的 LinePayRequestDto
                             LinePayRequestDto linePayReserveRequest = new LinePayRequestDto
                             {
@@ -735,7 +664,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                             };
 
-                            //PaymentAppMsg += "測試點02";
 
 
                             //發送request 並接收response
@@ -744,7 +672,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                             selOrder.TransactionId = resultLinePayReserve.info.transactionId.ToString();
                             db.SaveChanges();
 
-                            //PaymentAppMsg += "測試點03";
+
 
                             //response成功
                             if (resultLinePayReserve.returnCode == "0000")
@@ -912,37 +840,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /// <summary>
         /// 取得會員訂單(全部)
         /// 'api/v1/members/order/'
@@ -954,17 +851,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
         [Route("api/v1/members/orders")]
         public IHttpActionResult Orders()
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    var errorStr = new
-            //    {
-            //        statusCode = 400,
-            //        status = false,
-            //        message = "新增訂單失敗"
-            //    };
-
-            //    return Ok(errorStr);
-            //}
+            
 
             var userToken = JwtAuthUtil.GetPayload(Request.Headers.Authorization.Parameter);
 
@@ -1069,47 +956,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 {
                     int userId = Convert.ToInt32(userToken["UserId"].ToString());
 
-                    //陣列版本
-                    //var selOrders = db.Orders.Where(o => o.IsDeleted == false).Where(o => o.GetCartId.UserId == userId).Where(o => o.OrderId == selOrderId);
-
-                    //var selData = selOrders.ToList().Select(o => new OrderDetailDto
-                    //{
-                    //    orderStatus = o.OrderStatus ?? "",
-                    //    shippingStatus = o.ShippingStatus ?? "",
-                    //    orderCode = o.OrderCode ?? "",
-                    //    createdDate = o.CreateAt != null ? o.CreateAt : DateTime.MinValue,
-                    //    createdStamp = o.CreateAt.ToString("yyyy-MM-dd") ?? "",
-                    //    note = o.note ?? "",
-                    //    shipping = o.shipping ?? "",
-                    //    shippinginfo = new OrderDetailShippingInfoDto
-                    //    {
-                    //        name = o.RecipientName,
-                    //        phone = o.RecipientPhone,
-                    //        email = o.RecipientEmail,
-                    //        address = o.RecipientAddressCity + o.RecipientAddressDistinct + o.RecipientAddressDetail
-                    //    },
-                    //    details = new OrderDetailDetailsDto
-                    //    {
-                    //        quantity = o.Quantity ?? -99999,
-                    //        productName = o.ProductName,
-                    //        productDes = o.ProductDesc,
-                    //        productImgSrc = (ServerPath.Domain) + o.ImgSrc,
-                    //        productImgAlt = o.ProductName,
-                    //        rent = o.Rent ?? -99999,
-                    //        deposit = o.Deposit ?? -99999,
-                    //        fee = o.fee ?? -99999,
-                    //        //feeDeposit = o.fee ??-99999 + o.Deposit ?? -99999,  //前端計算
-                    //        finalAmount = o.FinalAmount ?? -99999,
-                    //        period = o.Period,
-                    //        rentDate = o.RentDate ?? DateTime.MinValue,
-                    //        rentStamp = (o.RentDate ?? DateTime.MinValue).ToString("yyyy-MM-dd"),
-                    //        returnDate = o.ReturnDate ?? DateTime.MinValue,
-                    //        returnStamp = (o.ReturnDate ?? DateTime.MinValue).ToString("yyyy-MM-dd"),
-                    //        payment = o.PaymentBy
-                    //    }
-
-                    //});
-
+                    
                     //物件版本
                     var selOrder = db.Orders.Where(o => o.IsDeleted == false).Where(o => o.GetCartId.UserId == userId).Where(o => o.OrderId == selOrderId).FirstOrDefault();
 
@@ -1204,17 +1051,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
         [Route("api/v1/admin/orders")]
         public IHttpActionResult OrdersAdminAll()
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    var errorStr = new
-            //    {
-            //        statusCode = 400,
-            //        status = false,
-            //        message = "新增訂單失敗"
-            //    };
-
-            //    return Ok(errorStr);
-            //}
 
             var userToken = JwtAuthUtil.GetPayload(Request.Headers.Authorization.Parameter);
 
@@ -1562,17 +1398,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
         [Route("api/admin/order/{orderId}")]
         public IHttpActionResult OrdersDetailAdmin(int orderId)
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    var errorStr = new
-            //    {
-            //        statusCode = 400,
-            //        status = false,
-            //        message = "新增訂單失敗"
-            //    };
-
-            //    return Ok(errorStr);
-            //}
 
             var userToken = JwtAuthUtil.GetPayload(Request.Headers.Authorization.Parameter);
 
@@ -1803,120 +1628,5 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-        #region 預設
-
-
-        //// GET: api/Orders
-        //public IQueryable<Order> GetOrders()
-        //{
-        //    return db.Orders;
-        //}
-
-        //// GET: api/Orders/5
-        //[ResponseType(typeof(Order))]
-        //public IHttpActionResult GetOrder(int id)
-        //{
-        //    Order order = db.Orders.Find(id);
-        //    if (order == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return Ok(order);
-        //}
-
-        //// PUT: api/Orders/5
-        //[ResponseType(typeof(void))]
-        //public IHttpActionResult PutOrder(int id, Order order)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    if (id != order.OrderId)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    db.Entry(order).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        db.SaveChanges();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!OrderExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return StatusCode(HttpStatusCode.NoContent);
-        //}
-
-        //// POST: api/Orders
-        //[ResponseType(typeof(Order))]
-        //public IHttpActionResult PostOrder(Order order)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    db.Orders.Add(order);
-        //    db.SaveChanges();
-
-        //    return CreatedAtRoute("DefaultApi", new { id = order.OrderId }, order);
-        //}
-
-        //// DELETE: api/Orders/5
-        //[ResponseType(typeof(Order))]
-        //public IHttpActionResult DeleteOrder(int id)
-        //{
-        //    Order order = db.Orders.Find(id);
-        //    if (order == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    db.Orders.Remove(order);
-        //    db.SaveChanges();
-
-        //    return Ok(order);
-        //}
-
-        //protected override void Dispose(bool disposing)
-        //{
-        //    if (disposing)
-        //    {
-        //        db.Dispose();
-        //    }
-        //    base.Dispose(disposing);
-        //}
-
-        //private bool OrderExists(int id)
-        //{
-        //    return db.Orders.Count(e => e.OrderId == id) > 0;
-        //}
-
-        #endregion
     }
 }

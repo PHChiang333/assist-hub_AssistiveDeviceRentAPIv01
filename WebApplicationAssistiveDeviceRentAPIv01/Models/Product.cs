@@ -73,7 +73,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models
         public string ProductManual { get; set; }
 
 
-        //自動屬性
 
         [Display(Name = "CreateAt")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:d}")]

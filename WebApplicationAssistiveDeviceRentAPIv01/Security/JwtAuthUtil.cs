@@ -10,11 +10,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
 {
     public class JwtAuthUtil
     {
-        //private readonly ApplicationDbContext db = new ApplicationDbContext(); // DB 連線
-
         private static readonly string secretKey = "TokenKey";
-
-
 
         /// <summary>
         /// 生成 JwtToken
@@ -28,7 +24,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
             //var user = db.User.Find(id); // 進 DB 取出想要夾帶的基本資料
             //----------------------------------
             //改為不用再跟DB連線，可以在登入階段撈data就好
-            //string secretKey = "ILoveRocketCoding";  //私鑰
             string secretKey = "TokenKey";  //私鑰
 
             // payload 需透過 token 傳遞的資料 (可夾帶常用且不重要的資料)
@@ -37,7 +32,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
                 //依需求存東西
                 //加密後的明碼，敏感資訊不要放在這
                 { "UserId", UserId },
-                //{ "Exp", DateTime.Now.AddMinutes(30).ToString() } // JwtToken 時效設定 30 分
                 { "Exp", DateTime.Now.AddMinutes(1440).ToString() } // JwtToken 時效設定 1440 分
             };
 
@@ -58,10 +52,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
             var payload = new Dictionary<string, object>
             {
                 { "UserId", (int)tokenData["UserId"] },
-                //{ "UserEmail", tokenData["UserEmail"].ToString() },
-                //{ "UserName", tokenData["UserName"].ToString() },
-                //{ "ThumbnailPath", tokenData["ThumbnailPath"].ToString() },
-                //{ "Exp", DateTime.Now.AddMinutes(1440).ToString() } // JwtToken 時效刷新設定 30 分
                 { "Exp", DateTime.Now.AddDays(1).ToString() } // JwtToken 時效刷新設定 1天
             };
 
@@ -80,9 +70,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
             var payload = new Dictionary<string, object>
             {
                 { "UserId", 0 },
-                //{ "UserEmail", "None" },
-                //{ "UserName", "None" },
-                //{ "ThumbnailPath", "None" },
                 { "Exp", DateTime.Now.AddDays(-1440).ToString() } // 使 JwtToken 過期 失效
             };
 
@@ -117,9 +104,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
             var payload = new Dictionary<string, object>
             {
                 { "UserId", (int)tokenData["UserId"] },
-                //{ "UserEmail", tokenData["UserEmail"].ToString() },
-                //{ "UserName", tokenData["UserName"].ToString() },
-                //{ "ThumbnailPath", tokenData["ThumbnailPath"].ToString() },
                 { "Exp", DateTime.Now.AddMinutes(-60).ToString() } // JwtToken 時效刷新設定 30 分
             };
 

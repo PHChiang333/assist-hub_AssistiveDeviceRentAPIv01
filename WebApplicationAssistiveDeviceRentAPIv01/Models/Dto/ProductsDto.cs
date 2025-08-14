@@ -38,21 +38,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Class
 
         public recommendedDto recommended { get; set; }
 
-        //public int id { get; set; }
-        //public string type { get; set; }
-        //public string name { get; set; }
-        //public string level { get; set; }
-        //public double rent { get; set; }
-        //public double deposit  { get; set; }
-        //public double fee { get; set; }
-        //public string description { get; set; }
-        //public Dictionary<string, string> info { get; set; }
-        //public string[] features { get; set; }
-        //public ImageDto image { get; set; }
-
-        //public string manual { get; set; }
-
-
     }
 
 

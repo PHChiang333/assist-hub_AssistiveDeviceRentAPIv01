@@ -128,14 +128,10 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
             //Line Push url
             string apiEndpoint = "https://api.line.me/v2/bot/message/push";
 
-            //test msg pushed
-            //string message = selMsg;
             //push 對象LineId
-            //我的LineId用來測試  LineId = ""
             string selLineId = "";
             string toUserId = selLineId;
 
-            //List<LinePushTemplateButtonActionUriDto> actionUris = deser
 
 
 
@@ -208,7 +204,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 }
                 else
                 {
-                    //Console.WriteLine($"發生錯誤：{response.StatusCode} - {await response.Content.ReadAsStringAsync()}");
 
                     var result = new
                     {

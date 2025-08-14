@@ -45,8 +45,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 return Ok(errorStr);
             }
 
-            //var userToken = JwtAuthUtil.GetPayload(Request.Headers.Authorization.Parameter);
-
 
             //只能找到已經送出的建議單
 
@@ -534,7 +532,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 //找到指定SuggestProduct
                 var selSuggestProduct = db.SuggestProducts.Where(sp => sp.IsDeleted == false).Where(sp => sp.SuggestProductId == request.suggestProductId).FirstOrDefault();
 
-                //int userId = Convert.ToInt32(userToken["UserId"].ToString());
 
                 if (selSuggestProduct != null)
                 {
@@ -625,8 +622,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                 //找到指定Suggest
                 var selSuggest = db.Suggests.Where(s => s.IsDeleted == false && s.IsSubmitted == false).Where(s => s.SuggestId == request.suggestId).FirstOrDefault();
-
-                //int userId = Convert.ToInt32(userToken["UserId"].ToString());
 
                 if (selSuggest != null)
                 {
@@ -755,7 +750,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                                 var lineMsgService = new LineMsgService();
                                 var selmember = selSuggest.GetInquiryId.GetUserId;
 
-                                //TODO 補連結  https://assist-hub.vercel.app/suggest/AA073S
                                 var pushMsg = $"{selmember.UserName}您好，\n" +
                                     $"您的需求單 {selSuggest.GetInquiryId.InquiryCode} 店家已回覆，\n" +
                                     $"建議單單號為{selSuggest.SuggestCode}，分享連結為:https://assist-hub.vercel.app/suggest/{selSuggest.SuggestCode}";
@@ -846,108 +840,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
 
 
-
-        #region 預設
-        //// GET: api/Suggests
-        //public IQueryable<Suggest> GetSuggests()
-        //{
-        //    return db.Suggests;
-        //}
-
-        //// GET: api/Suggests/5
-        //[ResponseType(typeof(Suggest))]
-        //public IHttpActionResult GetSuggest(int id)
-        //{
-        //    Suggest suggest = db.Suggests.Find(id);
-        //    if (suggest == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return Ok(suggest);
-        //}
-
-        //// PUT: api/Suggests/5
-        //[ResponseType(typeof(void))]
-        //public IHttpActionResult PutSuggest(int id, Suggest suggest)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    if (id != suggest.SuggestId)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    db.Entry(suggest).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        db.SaveChanges();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!SuggestExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return StatusCode(HttpStatusCode.NoContent);
-        //}
-
-        //// POST: api/Suggests
-        //[ResponseType(typeof(Suggest))]
-        //public IHttpActionResult PostSuggest(Suggest suggest)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    db.Suggests.Add(suggest);
-        //    db.SaveChanges();
-
-        //    return CreatedAtRoute("DefaultApi", new { id = suggest.SuggestId }, suggest);
-        //}
-
-        //// DELETE: api/Suggests/5
-        //[ResponseType(typeof(Suggest))]
-        //public IHttpActionResult DeleteSuggest(int id)
-        //{
-        //    Suggest suggest = db.Suggests.Find(id);
-        //    if (suggest == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    db.Suggests.Remove(suggest);
-        //    db.SaveChanges();
-
-        //    return Ok(suggest);
-        //}
-
-        //protected override void Dispose(bool disposing)
-        //{
-        //    if (disposing)
-        //    {
-        //        db.Dispose();
-        //    }
-        //    base.Dispose(disposing);
-        //}
-
-        //private bool SuggestExists(int id)
-        //{
-        //    return db.Suggests.Count(e => e.SuggestId == id) > 0;
-        //}
-
-        #endregion
 
 
 

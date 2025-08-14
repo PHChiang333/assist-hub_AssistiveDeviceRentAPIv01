@@ -23,8 +23,5 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Class
             }
         }
 
-
-
-
     }
 }

@@ -24,8 +24,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
         private static readonly string secretKey = "TokenKey";
 
 
-
-
         /// <summary>
         /// 過濾有用標籤 [JwtAuthFilter] 請求的 API 的 JwtToken 狀態及內容
         /// </summary>
@@ -39,15 +37,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
             {
                 // 可考慮配合前端專案開發期限，不修改 StatusCode 預設 200，將請求失敗搭配 Status: false 供前端判斷
                 string messageJson = JsonConvert.SerializeObject(new { Status = false, Message = "請重新登入" }); // JwtToken 遺失，需導引重新登入
-                //var errorMessage = new HttpResponseMessage()
-                //{
-                //    // StatusCode = System.Net.HttpStatusCode.Unauthorized, // 401
-                //    ReasonPhrase = "JwtToken Lost",
-                //    Content = new StringContent(messageJson,
-                //                Encoding.UTF8,
-                //                "application/json")
-                //};
-                //throw new HttpResponseException(errorMessage); // Debug 模式會停在此行，點繼續執行即可  //顯示錯誤訊息
 
                 actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized)
                 {
@@ -68,15 +57,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
                     if (IsTokenExpired(jwtObject["Exp"].ToString()))
                     {
                         string messageJson = JsonConvert.SerializeObject(new { Status = false, Message = "請重新登入" }); // JwtToken 過期，需導引重新登入
-                        //var errorMessage = new HttpResponseMessage()
-                        //{
-                        //    // StatusCode = System.Net.HttpStatusCode.Unauthorized, // 401
-                        //    ReasonPhrase = "JwtToken Expired",
-                        //    Content = new StringContent(messageJson,
-                        //        Encoding.UTF8,
-                        //        "application/json")
-                        //};
-                        //throw new HttpResponseException(errorMessage); // Debug 模式會停在此行，點繼續執行即可
 
                         actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized)
                         {
@@ -90,15 +70,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Security
                 {
                     // 解密失敗
                     string messageJson = JsonConvert.SerializeObject(new { Status = false, Message = "請重新登入" }); // JwtToken 不符，需導引重新登入
-                    //var errorMessage = new HttpResponseMessage()
-                    //{
-                    //    // StatusCode = System.Net.HttpStatusCode.Unauthorized, // 401
-                    //    ReasonPhrase = "JwtToken NotMatch",
-                    //    Content = new StringContent(messageJson,
-                    //            Encoding.UTF8,
-                    //            "application/json")
-                    //};
-                    //throw new HttpResponseException(errorMessage); // Debug 模式會停在此行，點繼續執行即可
 
                     actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized)
                     {

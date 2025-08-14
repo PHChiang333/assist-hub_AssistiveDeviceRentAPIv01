@@ -222,7 +222,7 @@ public IHttpActionResult Register([FromBody] requestRegister request)
     //有驗證資料
     if (existingUser)
     {
-        //TODO 補充LINE登入註冊的驗證邏輯  (已有LineId的帳號轉為更新)
+        // 補充LINE登入註冊的驗證邏輯  (已有LineId的帳號轉為更新)
         var errorStr = new
         {
             statusCode = 400,
@@ -408,9 +408,9 @@ public IHttpActionResult SignIn([FromBody] requestLogin request)
     string msg = string.Empty;
 
 
-    //TODO 如果是先有lineId再登入會有問題還未解決(無法登入)
+    //如果是先有lineId再登入有時會有問題還未解決(無法登入)
 
-    //  登入‵‵
+    //  登入
 
 
     //有驗證資料

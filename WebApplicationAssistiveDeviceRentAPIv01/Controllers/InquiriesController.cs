@@ -33,17 +33,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
         [Route("api/v1/member/inquiries")]
         public IHttpActionResult Inquiries()
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    var errorStr = new
-            //    {
-            //        statusCode = 400,
-            //        status = false,
-            //        message = "失敗"
-            //    };
-
-            //    return Ok(errorStr);
-            //}
 
             var userToken = JwtAuthUtil.GetPayload(Request.Headers.Authorization.Parameter);
 
@@ -63,9 +52,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                     isReplied = i.IsReplied ?? false,
                     images = i.InquiryProducts.Where(ip => ip.IsDeleted == false && ip.InquiryId == i.InquiryId).Select(ip => new InquiriesProductsDto
                     {
-                        //src = ip.GetProductId.ProductImgs.Where(imgp => imgp.ProductId ==imgp.ProductId && imgp.IsPreview==true).Select(imgp => imgp.ProductImgPath).ToString(),
-                        //src = ip.GetProductId.ProductImgs?.FirstOrDefault(pi => pi.IsDeleted == false && pi.IsPreview == true)?.ProductImgPath ?? "",
-                        //alt = ip.GetProductId.ProductName
+
 
                         src = ip.GetProductId?.ProductImgs?.FirstOrDefault(pi => pi.IsDeleted == false && pi.IsPreview == true)?.ProductImgPath != null ? (ServerPath.Domain) + ip.GetProductId.ProductImgs.FirstOrDefault(pi => pi.IsDeleted == false && pi.IsPreview == true)?.ProductImgPath : "",
                         alt = ip.GetProductId?.ProductName ?? "" // 預設值
@@ -86,26 +73,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
                 return Ok(result);
 
-
-                ////先確認User, UserInfo存在
-                //if (db.Inquirys.Where(u => u.IsDeleted == false).ToList())
-                //{
-
-
-
-                //}
-                //else
-                //{
-                //    //沒找到user
-
-                //    var result = new
-                //    {
-                //        statusCode = 404,
-                //        status = false,
-                //        message = "no user exist."
-                //    };
-                //    return Ok(result);
-                //}
 
             }
             catch (Exception ex)
@@ -261,73 +228,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 }
 
 
-                #region 原本的  start  (如果request格式錯誤會造成db新增不同步)
-                //原本的  start  (如果request格式錯誤會造成db新增不同步)
-                //Inquiry inquiryAdd = new Inquiry();
-
-                //inquiryAdd.InquiryCode = Function.GenerateNextOrderNumber(lastestInquiryCode);
-                //inquiryAdd.UserId = userId;
-                //inquiryAdd.IsReplied = false;
-                //inquiryAdd.GMFMLvCode = request.level;
-                //inquiryAdd.additionalInfo = request.additionalInfo;
-
-                //inquiryAdd.CreateAt = DateTime.Now;
-                //inquiryAdd.UpdateAt = DateTime.Now;
-                //inquiryAdd.IsDeleted = false;
-                //inquiryAdd.DeleteAt = null;
-
-                //db.Inquirys.Add(inquiryAdd);
-                //db.SaveChanges();
-
-                //////找到剛新增的詢問單Id  (用InquiryCode找)
-                ////Inquiry inquiryAdded = db.Inquirys.FirstOrDefault(i => i.IsDeleted == false && i.UserId == userId && i.InquiryCode == inquiryAdd.InquiryCode);
-                ////int inquiryId = inquiryAdded.InquiryId;
-
-
-                ////// 使用剛新增的 InquiryId
-                //int inquiryId = inquiryAdd.InquiryId;
-
-                //var product = db.Products.Where(p => p.IsDeleted == false).Where(p => request.productIds.Contains(p.ProductId)).ToList();
-
-                //for (int i = 0; i < request.productIds.Count; i++)
-                //{
-                //    if (product.Any(p => p.ProductId == request.productIds[i]))
-                //    {
-                //        InquiryProduct inquiryProductAdd = new InquiryProduct();
-                //        inquiryProductAdd.InquiryId = inquiryId;
-                //        inquiryProductAdd.ProductId = request.productIds[i];
-                //        inquiryProductAdd.CreateAt = DateTime.Now;
-                //        inquiryProductAdd.UpdateAt = DateTime.Now;
-                //        inquiryProductAdd.IsDeleted = false;
-                //        inquiryProductAdd.DeleteAt = null;
-
-                //        db.InquiryProducts.Add(inquiryProductAdd);
-                //        db.SaveChanges();
-                //    }
-                //}
-
-
-                ////TODO 會漏單
-                //// 同步新增對應的建議單
-
-                //Suggest suggestAdd = new Suggest();
-
-                //suggestAdd.SuggestCode = inquiryAdd.InquiryCode + "S";
-                //suggestAdd.InquiryId = inquiryId;
-                ////suggestAdd.GMFMLvCode = inquiryAdded.GMFMLvCode;
-                //suggestAdd.GMFMLvCode = request.level;
-                //suggestAdd.additionalInfo = "";
-                //suggestAdd.IsSubmitted = false;
-                //suggestAdd.CreateAt = DateTime.Now;
-                //suggestAdd.UpdateAt = DateTime.Now;
-                //suggestAdd.IsDeleted = false;
-                //suggestAdd.DeleteAt = null;
-
-                //db.Suggests.Add(suggestAdd);
-                //db.SaveChanges();
-                //原本的  End  (如果request格式錯誤會造成db新增不同步)
-                #endregion
-
 
             }
             catch (Exception ex)
@@ -470,7 +370,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                                 if (!string.IsNullOrEmpty(selmember.LineId))
                                 {
                                     var lineMsgService = new LineMsgService();
-                                    //TODO 補連結  https://assist-hub.vercel.app/inquiry/AA073
                                     var pushMsg = $"{selmember.UserName}您好，\n" +
                                         $"您的需求單: {selInquiry.InquiryCode}，分享連結為:https://assist-hub.vercel.app/inquiry/{selInquiry.InquiryCode}";
                                     var isLinePushed = await lineMsgService.LineBotPush(selmember.LineId, pushMsg);
@@ -555,72 +454,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                 }
 
 
-                #region 原本的  start  (如果request格式錯誤會造成db新增不同步)
-                //原本的  start  (如果request格式錯誤會造成db新增不同步)
-                //Inquiry inquiryAdd = new Inquiry();
 
-                //inquiryAdd.InquiryCode = Function.GenerateNextOrderNumber(lastestInquiryCode);
-                //inquiryAdd.UserId = userId;
-                //inquiryAdd.IsReplied = false;
-                //inquiryAdd.GMFMLvCode = request.level;
-                //inquiryAdd.additionalInfo = request.additionalInfo;
-
-                //inquiryAdd.CreateAt = DateTime.Now;
-                //inquiryAdd.UpdateAt = DateTime.Now;
-                //inquiryAdd.IsDeleted = false;
-                //inquiryAdd.DeleteAt = null;
-
-                //db.Inquirys.Add(inquiryAdd);
-                //db.SaveChanges();
-
-                //////找到剛新增的詢問單Id  (用InquiryCode找)
-                ////Inquiry inquiryAdded = db.Inquirys.FirstOrDefault(i => i.IsDeleted == false && i.UserId == userId && i.InquiryCode == inquiryAdd.InquiryCode);
-                ////int inquiryId = inquiryAdded.InquiryId;
-
-
-                ////// 使用剛新增的 InquiryId
-                //int inquiryId = inquiryAdd.InquiryId;
-
-                //var product = db.Products.Where(p => p.IsDeleted == false).Where(p => request.productIds.Contains(p.ProductId)).ToList();
-
-                //for (int i = 0; i < request.productIds.Count; i++)
-                //{
-                //    if (product.Any(p => p.ProductId == request.productIds[i]))
-                //    {
-                //        InquiryProduct inquiryProductAdd = new InquiryProduct();
-                //        inquiryProductAdd.InquiryId = inquiryId;
-                //        inquiryProductAdd.ProductId = request.productIds[i];
-                //        inquiryProductAdd.CreateAt = DateTime.Now;
-                //        inquiryProductAdd.UpdateAt = DateTime.Now;
-                //        inquiryProductAdd.IsDeleted = false;
-                //        inquiryProductAdd.DeleteAt = null;
-
-                //        db.InquiryProducts.Add(inquiryProductAdd);
-                //        db.SaveChanges();
-                //    }
-                //}
-
-
-                ////TODO 會漏單
-                //// 同步新增對應的建議單
-
-                //Suggest suggestAdd = new Suggest();
-
-                //suggestAdd.SuggestCode = inquiryAdd.InquiryCode + "S";
-                //suggestAdd.InquiryId = inquiryId;
-                ////suggestAdd.GMFMLvCode = inquiryAdded.GMFMLvCode;
-                //suggestAdd.GMFMLvCode = request.level;
-                //suggestAdd.additionalInfo = "";
-                //suggestAdd.IsSubmitted = false;
-                //suggestAdd.CreateAt = DateTime.Now;
-                //suggestAdd.UpdateAt = DateTime.Now;
-                //suggestAdd.IsDeleted = false;
-                //suggestAdd.DeleteAt = null;
-
-                //db.Suggests.Add(suggestAdd);
-                //db.SaveChanges();
-                //原本的  End  (如果request格式錯誤會造成db新增不同步)
-                #endregion
 
 
             }
@@ -895,7 +729,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                     {
                         memberName = i.GetUserId.UserName,
                         email = i.GetUserId.UserEmail ?? "",
-                        //TODO LineId記得要加
                         lineId = i.GetUserId.LineId ?? "",
                     }
                 });

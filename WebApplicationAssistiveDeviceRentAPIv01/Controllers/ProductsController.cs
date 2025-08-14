@@ -50,17 +50,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                         //.ProductFeatures.Where(pf => pf.ProductId == selProduct.ProductId).Select(pf => pf.FeatureValue).ToArray() ?? Array.Empty<string>(),
                         description = p.ProductDesc ??"",
 
-                        
-
-                        //第一種寫法:浩哥建議
-                        //info = p.ProductInfos.Select(x => new
-                        //{
-                        //    infokey=x.ProductInfoKey,
-                        //    infovalue=x.ProductInfoValue
-                        //}),
-                        //第二種寫法: 原定
-                        //info = p.ProductInfos.Where(pi => pi.ProductId == p.ProductId).ToDictionary(pi => pi.ProductInfoKey, pi => pi.ProductInfoValue) ?? new Dictionary<string, string>(),
-
                     }
                     )
                 };
@@ -216,10 +205,10 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                         var product = new ProductDetailDto
                         {
                             id = selProduct.ProductId,
-                            //type = productTypes.Where(pt => pt.ProductTypeId == p.ProductTypeId).Select(pt => pt.ProductTypeName).FirstOrDefault().ToString(),
+
                             type = selProduct.GetProductTypeId.ProductTypeName,
                             name = selProduct.ProductName,
-                            //level = productGMFMLvs.Where(pg => pg.ProductId == selProduct.ProductId).Select(pg => pg.GMFMLvCode).Select(pgCode => int.TryParse(pgCode, out var codeFail) ? codeFail : 0).FirstOrDefault(),
+
                             level = selProduct.ProductGMFMLvs.FirstOrDefault(pg => pg.ProductId == selProduct.ProductId)?.GMFMLvCode ?? "",
                             rent = selProduct.Rent ?? 999999m,
                             deposit = selProduct.Deposit ?? 999999m,
@@ -229,8 +218,7 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                             features = selProduct.ProductFeatures.Where(pf => pf.ProductId == selProduct.ProductId).Select(pf => pf.FeatureValue).ToArray() ?? Array.Empty<string>(),
                             image = new ImageDto
                             {
-                                //preview = selProduct.ProductImgs.FirstOrDefault(pi => pi.IsDeleted == false && pi.IsPreview == true).ProductImgPath.ToString() ?? "",
-                                //list = selProduct.ProductImgs.Where(pi => pi.IsDeleted == false && pi.IsPreview == false).Select(pi => pi.ProductImgPath).ToArray()
+
                                 preview = (ServerPath.Domain)+ selProduct.ProductImgs?.FirstOrDefault(pi => pi.IsDeleted == false && pi.IsPreview)?.ProductImgPath ?? "",
                                 previewAlt = selProduct.ProductImgs?.FirstOrDefault(pf => pf.IsDeleted == false && pf.IsPreview)?.ProductImgName ?? "",
                                 list = selProduct.ProductImgs?.Where(pi => pi.IsDeleted == false && !pi.IsPreview)
@@ -321,115 +309,5 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
 
 
 
-
-        #region Defaults
-        // GET: api/Products
-        //public IHttpActionResult GetProducts()
-        //{
-        //    var query = db.Products.Where(p => p.IsDeleted == false).Select(p => p).ToList();
-
-        //    //var result = new ProductsDto{ 
-        //    //   id = 1,
-        //    //   name = query.
-
-
-        //    //};
-
-        //    return Ok(query);
-        //}
-
-        //// GET: api/Products/5
-        //[ResponseType(typeof(Product))]
-        //public IHttpActionResult GetProduct(int id)
-        //{
-        //    Product product = db.Products.Find(id);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return Ok(product);
-        //}
-
-        //// PUT: api/Products/5
-        //[ResponseType(typeof(void))]
-        //public IHttpActionResult PutProduct(int id, Product product)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    if (id != product.ProductId)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    db.Entry(product).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        db.SaveChanges();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!ProductExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return StatusCode(HttpStatusCode.NoContent);
-        //}
-
-        //// POST: api/Products
-        //[ResponseType(typeof(Product))]
-        //public IHttpActionResult PostProduct(Product product)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    db.Products.Add(product);
-        //    db.SaveChanges();
-
-        //    return CreatedAtRoute("DefaultApi", new { id = product.ProductId }, product);
-        //}
-
-        //// DELETE: api/Products/5
-        //[ResponseType(typeof(Product))]
-        //public IHttpActionResult DeleteProduct(int id)
-        //{
-        //    Product product = db.Products.Find(id);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    db.Products.Remove(product);
-        //    db.SaveChanges();
-
-        //    return Ok(product);
-        //}
-
-        //protected override void Dispose(bool disposing)
-        //{
-        //    if (disposing)
-        //    {
-        //        db.Dispose();
-        //    }
-        //    base.Dispose(disposing);
-        //}
-
-        //private bool ProductExists(int id)
-        //{
-        //    return db.Products.Count(e => e.ProductId == id) > 0;
-        //}
-        #endregion
     }
 }

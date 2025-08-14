@@ -42,23 +42,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models
             empty = -1   //空值
         }
 
-
-
-        //public enum BodyPart
-        //{
-        //    headAndNeck=1, //頭部與頸部
-        //    shoulder=2,  //肩部
-        //    arm=3, //手臂
-        //    wrist=4, //手腕
-        //    spine=5,  //脊椎
-        //    waist=6, //腰部
-        //    hip =7, //髖部
-        //    knee=8, //膝蓋
-        //    ankle=9 //腳踝
-
-        //}
-
-
         public enum payment
         {
             Cash = 0,

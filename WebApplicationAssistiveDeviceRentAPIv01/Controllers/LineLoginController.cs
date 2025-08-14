@@ -178,7 +178,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
                     db.UserInfo.Add(userInfoAdd);
                     db.SaveChanges();
 
-                    //TODO 要改DB 的email unique 不然軟刪除會有問題
 
                     //找尋用戶
                     var selExistingUser = db.User.Where(u => u.IsDeleted == false).Where(u => u.UserEmail == selLineEmail).FirstOrDefault();
@@ -299,7 +298,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Controllers
         }
 
 
-        // FROM GPT  ----End----
     }
 }
 

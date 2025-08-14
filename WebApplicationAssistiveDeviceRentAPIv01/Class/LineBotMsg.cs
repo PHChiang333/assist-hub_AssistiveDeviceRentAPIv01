@@ -18,29 +18,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Class
         /// </summary>
         public static string ChannelAccessToken { get; set; }
 
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 

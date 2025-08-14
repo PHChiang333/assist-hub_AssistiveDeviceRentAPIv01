@@ -48,7 +48,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models
         [Display(Name = "是否已送出IsSubmitted")]
         public bool? IsSubmitted { get; set; }
 
-        //自動屬性
 
         [Display(Name = "CreateAt")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:d}")]

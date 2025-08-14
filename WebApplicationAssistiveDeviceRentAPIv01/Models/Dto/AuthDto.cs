@@ -10,19 +10,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models.Dto
     {
     }
 
-    //public class responseLogin
-    //{
-    //    public string StatusCode { get; set; }
-    //    public string Status { get; set; }
-    //    public string Msg { get; set; }
-    //    public UserDto Data { get; set; }
-    //}
-
-    //public class authRequest
-    //{
-    //    public string JWTtoken { get; set; }
-    //}
-
     public class requestRegister
     {
         public string Name { get; set; }

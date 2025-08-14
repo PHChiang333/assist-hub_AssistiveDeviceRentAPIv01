@@ -31,7 +31,6 @@ namespace WebApplicationAssistiveDeviceRentAPIv01.Models
 
 
 
-        //自動屬性
 
         [Display(Name = "CreateAt")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:d}")]
